@@ -1,0 +1,20 @@
+=================================
+Toolchain 4.4.3 - 4.6 - 4.7 - 4.8
+=================================
+
+Run one of the following commands from the kernel directory for the toolchain branch you need.
+This will create a folder named (toolchain) and pull all files to it...
+
+git clone https://github.com/GameTheory-/toolchain.git -b 4.4.3 toolchain
+
+git clone https://github.com/GameTheory-/toolchain.git -b 4.6 toolchain
+
+git clone https://github.com/GameTheory-/toolchain.git -b 4.7 toolchain
+
+git clone https://github.com/GameTheory-/toolchain.git -b 4.8 toolchain
+
+This will be your export path...
+
+export CROSS_COMPILE=toolchain/arm-eabi-4.X.X/bin/arm-eabi-
+
+Make sure to edit version in export path where X is accordingly.
